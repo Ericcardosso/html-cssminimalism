@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vida Minimalista</title>
+    <link rel="shortcut icon" href="imagens/favicon1.ico" type="image/x-icon">
+ <link rel="stylesheet" href="estilo/style.css">
+   
+</head>
+<body>
+    <h1>Vida Minimalista</h1>
+    <p>Tudo aquilo que você sempre quis saber sobre minimalismo, em um único lugar</p>
+    <header>
+        <nav>
+<a href="# "> HISTÓRIA </a>
+<a href="#"> NOTÍCIAS </a>
+<a href="#"> CURIOSIDADE </a>
+<a href="#"> FALE CONOSCO </a>
+        </nav>
+    </header>
+    <MAIN>
+        <article>
+            <h1>O que é o minimalismo?</h1>
+            <p>O <strong>minimalismo</strong> é um estilo de vida que prega o desapego. Então, o que é uma pessoa minimalista? É o indivíduo que prioriza o <strong>viver</strong> ao <strong>ter</strong>. Ou seja, ele dá mais valor para experiências do que para o acúmulo de coisas materiais.</p>
+            <h2> O que é minimalismo estilo de vida?</h2>
+            <p>O estilo de vida minimalista consiste em eliminar tudo o que está em excesso na vida. Isso não quer dizer que os minimalistas vendem suas coisas e saem viajando pelo mundo levando apenas uma mochila nas costas. Existem sim os casos mais extremos, mas não é regra. Na verdade, adotar esse estilo de vida tem muito mais a ver com viver do seu jeito, do que com seguir normas rígidas na sociedade.</p>
+            <img src="imagens/walk2g.jpg" alt="Homem caminhando  ">
+            <p>Por isso, não pense que existem passos predefinidos para se tornar um minimalista, muito menos regras para serem seguidas. Não tem nenhum caderno que diz que para ser minimalista é preciso ter apenas cinco peças de roupa, um prato e dois talheres. É verdade que esse estilo prega o desapego, mas o que você vai se desfazer é um problema só seu. 
+
+                O princípio do minimalismo, nesse sentido, é viver apenas com o necessário e se livrar das coisas compradas por puro consumismo. Quem disse que você precisa ter 20 pares de sapatos diferentes se só usa 4 deles? Ou que você precisa daquele monte de enfeites na estante que só estão lá juntando poeira? São essas coisas que necessitam ser repensadas. </p>
+                <h3>Para que serve o minimalismo?</h3>
+                <p>O minimalismo prega a vida livre, sem apegos materiais. Por isso, adotar essa prática resulta em diversos benefícios. Desde o ganho de consciência financeira, até uma melhora significativa na qualidade de vida. </p>
+                <img src="imagens/planta1g.jpg" alt="Planta ">
+                <p>A pessoa que tem uma vida minimalista dá mais valor aos momentos de descanso e ao tempo com a família e amigos, deixando os bens materiais em terceiro plano. Isso reduz os níveis de estresse e ansiedade, resultando em uma vida mais feliz. </p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0Co1Iptd4p4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <aside>
+                    <h3>O minimalismo te leva a fazer as seguintes perguntas para si mesmo: </h3>
+                    <ul>
+                       <li><abbr title="Este que tenho não me atende?">Eu realmente preciso do carro do ano?</abbr> </li>
+                       <li><abbr title="Essas já não são suficientes?">Preciso de mais uma blusa?</abbr> </li>
+                       <li><abbr title=" É realmente necessário? ">Esse celular de última geração?</abbr></li>
+                       <li><abbr title="Estão juntando poeira há mais de cinco anos na minha estante.">Eu ainda vou ler esses livros?</abbr></li>
+                    </ul>
+
+                </aside>
+                
+        </article>
+<p> Lembre-se que é praticamente impossível se tornar uma pessoa minimalista do dia para a noite, então não se frustre se o seu processo for demorado, cada um tem seu tempo. </p>
+    </MAIN>
+    <footer>
+        Projeto Criado por Eric Cardoso
+    </footer>
+    
+</body>
+</html>
+__________________________________________
+______________________________________
+@charset "utf-8";
+/*
+branco #F0F0F2
+preto #0D0B0C
+cinza escuro #404040
+cinza médio #A6A6A4
+cinza claro #D9D9D9
+*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@500&family=Great+Vibes&display=swap');
+@font-face{
+    font-family: 'Minimalist';
+    src: url('../fontes/Anthem\ Minimalism\ script.otf');format ('opentype');src: url('/fontes/Anthem\ Minimalism\ script.ttf'); formt ('truetype');
+}
+:root{
+    --branco:#F0F0F2;
+    --preto:#0D0B0C;
+    --cinzaescuro:#404040;
+    --cinzamedio:#A6A6A4;
+    --cinzaclaro:#D9D9D9;
+    
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', 'cursive';
+    --fonte-minimalist: 'minimalist', 'cursive';
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+}
+body > p {
+    background-color:var(--cinzaclaro);
+    font-family: var(--fonte-minimalist);
+
+}
+
+header{
+    background-color: var(--cinzaclaro);
+    
+}
+header h1 {
+    color: var(--cinzaclaro);
+    font-family: var(--fonte-padrao);
+}
+header > p {
+    color:  var(--cinzamedio);
+}
+nav{
+    background-color: var(--cinzaclaro);
+}
+main{
+    background-color: var(--branco);
+}
+main  h1 {
+    color: var(--preto);
+    font-family: var(--fonte-minimalist);
+
+     }
+ main h2 {
+    font-family: var(--fonte-minimalist);
+     }
+     footer{
+        background-color: var(--preto);
+        color: var(--branco);
+        font-family: var(--fonte-minimalist);
+        text-align: center;
+     }
+______________________________
+_________________________________- 2 ,3PARTE HTML __________________________
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vida Minimalista</title>
+    <link rel="shortcut icon" href="imagens/favicon1.ico" type="image/x-icon">
+ <link rel="stylesheet" href="estilo/style.css">
+
+</head>
+<body>
+    <header>
+    <h1>Vida Minimalista</h1>
+    <p>Tudo aquilo que você sempre quis saber sobre minimalismo, em um único lugar.</p>
+</header>
+        <nav>
+<a href="#"> HISTÓRIA </a>
+<a href="#"> NOTÍCIAS </a>
+<a href="#"> CURIOSIDADE </a>
+<a href="#"> FALE CONOSCO </a>
+        </nav>
+    <MAIN>
+        <article>
+            <h1>O que é o minimalismo?</h1>
+            <p>O minimalismo é um estilo de vida que prega o desapego. Então, o que é uma pessoa minimalista? É o indivíduo que prioriza o <strong>viver</strong> ao <strong>ter</strong>. Ou seja, ele dá mais valor para experiências do que para o acúmulo de coisas materiais.</p>
+            <h2> O que é minimalismo estilo de vida?</h2>
+            <p>O estilo de vida minimalista consiste em eliminar tudo o que está em excesso na vida. Isso não quer dizer que os minimalistas vendem suas coisas e saem viajando pelo mundo levando apenas uma mochila nas costas. Existem sim os casos mais extremos, mas não é regra. Na verdade, adotar esse estilo de vida tem muito mais a ver com viver do seu jeito, do que com seguir normas rígidas na sociedade.</p>
+            <picture>
+                <source media="(max-width: 600px )" srcset=" imagens/walk1p.jpg">
+                <img src="imagens/walk2g.jpg" alt="Homem caminhando  ">
+            </picture>
+            <p>Por isso, não pense que existem passos predefinidos para se tornar um minimalista, muito menos regras para serem seguidas. Não tem nenhum caderno que diz que para ser minimalista é preciso ter apenas cinco peças de roupa, um prato e dois talheres. É verdade que esse estilo prega o desapego, mas o que você vai se desfazer é um problema só seu. 
+
+                O princípio do minimalismo, nesse sentido, é viver apenas com o necessário e se livrar das coisas compradas por puro consumismo. Quem disse que você precisa ter 20 pares de sapatos diferentes se só usa 4 deles? Ou que você precisa daquele monte de enfeites na estante que só estão lá juntando poeira? São essas coisas que necessitam ser repensadas. </p>
+                <h3>Para que serve o minimalismo?</h3>
+                <p>O minimalismo prega a vida livre, sem apegos materiais. Por isso, adotar essa prática resulta em diversos benefícios. Desde o <a href="https://www.youtube.com/watch?v=VT2eFDJMF1g"target="_blank"> ganho de consciência financeira </a>, até uma melhora significativa na qualidade de vida. </p>
+                <picture>
+                    <source media="(max-width: 600px )" srcset="imagens/planta2p.jpg">
+                    <img src="imagens/planta1g.jpg" alt="Planta "></picture>
+                <p>A pessoa que tem uma vida minimalista dá mais valor aos momentos de descanso e ao tempo com a família e amigos, deixando os bens materiais em terceiro plano. Isso reduz os níveis de estresse e ansiedade, resultando em uma vida mais feliz. </p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0Co1Iptd4p4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <aside>
+                    <h3>O minimalismo te leva a fazer as seguintes perguntas para si mesmo: </h3>
+                    <ul>
+                       <li><abbr title="Este que tenho não me atende?">Eu realmente preciso do carro do ano?</abbr> </li>
+                       <li><abbr title="Essas já não são suficientes?">Preciso de mais uma blusa?</abbr> </li>
+                       <li><abbr title=" É realmente necessário? ">Esse celular de última geração?</abbr></li>
+                       <li><abbr title="Estão juntando poeira há mais de cinco anos na minha estante.">Eu ainda vou ler esses livros?</abbr></li>
+                    </ul>
+
+                </aside>
+                
+        </article>
+<p> Lembre-se que é praticamente impossível se tornar uma pessoa minimalista do dia para a noite, então não se frustre se o seu processo for demorado, cada um tem seu tempo. </p>
+    </MAIN>
+    <footer>
+        Projeto Criado por Eric Cardoso
+    </footer>
+    
+</body>
+</html>
+__________________________
+____________________________4 html rodapes e links_____________
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vida Minimalista</title>
+<link rel="shortcut icon" href="imagens/favicon1.ico" type="image/x-icon">
+<link rel="stylesheet" href="estilo/style.css">
+
+</head>
+<body>
+<header>
+<h1>Vida Minimalista</h1>
+<p>Tudo aquilo que você sempre quis saber sobre minimalismo, em um único lugar.</p>
+</header>
+    <nav>
+<a href="#"> HISTÓRIA </a>
+<a href="#"> NOTÍCIAS </a>
+<a href="#"> CURIOSIDADE </a>
+<a href="#"> FALE CONOSCO </a>
+    </nav>
+<MAIN>
+    <article>
+        <h1>O que é o minimalismo?</h1>
+        <p>O minimalismo é um estilo de vida que prega o desapego. Então, o que é uma pessoa minimalista? É o indivíduo que prioriza o <strong>viver</strong> ao <strong>ter</strong>. Ou seja, ele dá mais valor para experiências do que para o acúmulo de coisas materiais.</p>
+        <h2> O que é minimalismo estilo de vida?</h2>
+        <p>O estilo de vida minimalista consiste em eliminar tudo o que está em excesso na vida. Isso não quer dizer que os minimalistas vendem suas coisas e saem viajando pelo mundo levando apenas uma mochila nas costas. Existem sim os casos mais extremos, mas não é regra. Na verdade, adotar esse estilo de vida tem muito mais a ver com viver do seu jeito, do que com seguir normas rígidas na sociedade.</p>
+        <picture>
+            <source media="(max-width: 600px )" srcset=" imagens/walk1p.jpg">
+            <img src="imagens/walk2g.jpg" alt="Homem caminhando  ">
+        </picture>
+        <p>Por isso, não pense que existem passos predefinidos para se tornar um minimalista, muito menos regras para serem seguidas. Não tem nenhum caderno que diz que para ser minimalista é preciso ter apenas cinco peças de roupa, um prato e dois talheres. É verdade que esse estilo prega o desapego, mas o que você vai se desfazer é um problema só seu. 
+
+            O princípio do minimalismo, nesse sentido, é viver apenas com o necessário e se livrar das coisas compradas por puro consumismo. Quem disse que você precisa ter 20 pares de sapatos diferentes se só usa 4 deles? Ou que você precisa daquele monte de enfeites na estante que só estão lá juntando poeira? São essas coisas que necessitam ser repensadas. </p>
+            <h3>Para que serve o minimalismo?</h3>
+            <p>O minimalismo prega a vida livre, sem apegos materiais. Por isso, adotar essa prática resulta em diversos benefícios. Desde o <a href="https://www.youtube.com/watch?v=VT2eFDJMF1g"target="_blank"class='externo'> ganho de consciência financeira </a>, até uma melhora significativa na qualidade de vida. </p>
+            <picture>
+                <source media="(max-width: 600px )" srcset="imagens/planta2p.jpg">
+                <img src="imagens/planta1g.jpg" alt="Planta "></picture>
+            <p>A pessoa que tem uma vida minimalista dá mais valor aos momentos de descanso e ao tempo com a família e amigos, deixando os bens materiais em terceiro plano. Isso reduz os níveis de estresse e ansiedade, resultando em uma vida mais feliz. </p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/0Co1Iptd4p4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <aside>
+                <h3>O minimalismo te leva a fazer as seguintes perguntas para si mesmo: </h3>
+                <ul>
+                    <li><abbr title="Este que tenho não me atende?">Eu realmente preciso do carro do ano?</abbr> </li>
+                    <li><abbr title="Essas já não são suficientes?">Preciso de mais uma blusa?</abbr> </li>
+                    <li><abbr title=" É realmente necessário? ">Esse celular de última geração?</abbr></li>
+                    <li><abbr title="Estão juntando poeira há mais de cinco anos na minha estante.">Eu ainda vou ler esses livros?</abbr></li>
+                </ul>
+
+            </aside>
+            
+    </article>
+<p> Lembre-se que é praticamente impossível se tornar uma pessoa minimalista do dia para a noite, então não se frustre se o seu processo for demorado, cada um tem seu tempo. </p>
+</MAIN>
+<footer>
+    Projeto Criado por <a href=" https://www.linkedin.com/in/ericcardosonetwork/"target='_ black'>Eric Cardoso</a>
+
+</footer>
+
+
+</body>
+</html>
+_____________________
+_____________________ 5 video responsivel html ___________________
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vida Minimalista</title>
+<link rel="shortcut icon" href="imagens/favicon1.ico" type="image/x-icon">
+<link rel="stylesheet" href="estilo/style.css">
+
+</head>
+<body>
+<header>
+<h1>Vida Minimalista</h1>
+<p>Tudo aquilo que você sempre quis saber sobre minimalismo, em um único lugar.</p>
+</header>
+    <nav>
+<a href="#"> HISTÓRIA </a>
+<a href="#"> NOTÍCIAS </a>
+<a href="#"> CURIOSIDADE </a>
+<a href="#"> FALE CONOSCO </a>
+    </nav>
+<MAIN>
+    <article>
+        <h1>O que é o minimalismo?</h1>
+        <p>O minimalismo é um estilo de vida que prega o desapego. Então, o que é uma pessoa minimalista? É o indivíduo que prioriza o <strong>viver</strong> ao <strong>ter</strong>. Ou seja, ele dá mais valor para experiências do que para o acúmulo de coisas materiais.</p>
+        <h2> O que é minimalismo estilo de vida?</h2>
+        <p>O estilo de vida minimalista consiste em eliminar tudo o que está em excesso na vida. Isso não quer dizer que os minimalistas vendem suas coisas e saem viajando pelo mundo levando apenas uma mochila nas costas. Existem sim os casos mais extremos, mas não é regra. Na verdade, adotar esse estilo de vida tem muito mais a ver com viver do seu jeito, do que com seguir normas rígidas na sociedade.</p>
+        <picture>
+            <source media="(max-width: 600px )" srcset=" imagens/walk1p.jpg">
+            <img src="imagens/walk2g.jpg" alt="Homem caminhando  ">
+        </picture>
+        <p>Por isso, não pense que existem passos predefinidos para se tornar um minimalista, muito menos regras para serem seguidas. Não tem nenhum caderno que diz que para ser minimalista é preciso ter apenas cinco peças de roupa, um prato e dois talheres. É verdade que esse estilo prega o desapego, mas o que você vai se desfazer é um problema só seu. 
+
+            O princípio do minimalismo, nesse sentido, é viver apenas com o necessário e se livrar das coisas compradas por puro consumismo. Quem disse que você precisa ter 20 pares de sapatos diferentes se só usa 4 deles? Ou que você precisa daquele monte de enfeites na estante que só estão lá juntando poeira? São essas coisas que necessitam ser repensadas. </p>
+            <h3>Para que serve o minimalismo?</h3>
+            <p>O minimalismo prega a vida livre, sem apegos materiais. Por isso, adotar essa prática resulta em diversos benefícios. Desde o <a href="https://www.youtube.com/watch?v=VT2eFDJMF1g"target="_blank"class='externo'> ganho de consciência financeira </a>, até uma melhora significativa na qualidade de vida. </p>
+            <picture>
+                <source media="(max-width: 600px )" srcset="imagens/planta2p.jpg">
+                <img src="imagens/planta1g.jpg" alt="Planta "></picture>
+            <p>A pessoa que tem uma vida minimalista dá mais valor aos momentos de descanso e ao tempo com a família e amigos, deixando os bens materiais em terceiro plano. Isso reduz os níveis de estresse e ansiedade, resultando em uma vida mais feliz. </p>
+            <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/0Co1Iptd4p4">
+             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <aside>
+                <h3>O minimalismo te leva a fazer as seguintes perguntas para si mesmo: </h3>
+                <ul>
+                    <li><abbr title="Este que tenho não me atende?">Eu realmente preciso do carro do ano?</abbr> </li>
+                    <li><abbr title="Essas já não são suficientes?">Preciso de mais uma blusa?</abbr> </li>
+                    <li><abbr title=" É realmente necessário? ">Esse celular de última geração?</abbr></li>
+                    <li><abbr title="Estão juntando poeira há mais de cinco anos na minha estante.">Eu ainda vou ler esses livros?</abbr></li>
+                </ul>
+
+            </aside>
+            
+    </article>
+<p> Lembre-se que é praticamente impossível se tornar uma pessoa minimalista do dia para a noite, então não se frustre se o seu processo for demorado, cada um tem seu tempo. </p>
+</MAIN>
+<footer>
+    Projeto Criado por <a href=" https://www.linkedin.com/in/ericcardosonetwork/"target='_ black'>Eric Cardoso</a>
+
+</footer>
+
+
+</body>
+</html>
+_____________________________________
+_______________________________________2,3 PARTE CSS____________________________
+
+
+@charset "utf-8";
+/*
+branco #F0F0F2
+preto #0D0B0C
+cinza escuro #404040
+cinza médio #A6A6A4
+cinza claro #D9D9D9
+*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@500&family=Great+Vibes&display=swap');
+@font-face{
+    font-family: 'Minimalist';
+    src: url('../fontes/Anthem\ Minimalism\ script.otf');format ('opentype');src: url('/fontes/Anthem\ Minimalism\ script.ttf'); formt ('truetype');
+}
+:root{
+    --branco:#F0F0F2;
+    --preto:#0D0B0C;
+    --cinzaescuro:#404040;
+    --cinzamedio:#A6A6A4;
+    --cinzaclaro:#D9D9D9;
+    
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', 'cursive';
+    --fonte-minimalist: 'minimalist', 'cursive';
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+      
+    body {
+        background-color: var(--cinzaescuro);
+        font-family: var(--fonte-padrao);
+        text-align: center;
+        
+    }
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cinzaclaro), var(--cinzaescuro));
+    min-height: 170px;
+    background-color: var(--cinzaclaro);
+    text-align: center;
+    padding-top: 30px;
+    
+
+}
+header h1 {
+    color: var(--branco);
+    font-family: var(--fonte-padrao);
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgb(20, 10, 10);
+
+    
+}
+header > p {
+    font-family: var(--fonte-padrao);
+    font-size: 1.0em;
+    color:  var(--branco);  
+    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    text-shadow: 3px 2px 3px rgb(12, 3, 3);
+    
+
+}
+nav{
+    background-color: var(--cinzaescuro);
+    padding: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.308)
+    
+}
+nav >a{
+    color: var(--branco);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0,7ms;
+    
+    
+}
+nav > a:hover{
+    background-color: var(--branco);
+    color: var(--cinzaescuro);
+}
+main{
+    min-width: 390px;
+    max-width: 800px;
+    margin: auto;
+    background-color: var(--branco);
+    padding: 20px;
+    box-shadow: 0px 3px 4px  rgba(0, 0, 0, 0.61);
+    border-radius: 0px 0px 20px 20px;
+
+
+}
+main  h1 {
+    color: var(--preto);
+    font-family: var(--fonte-minimalist);
+    background-image: linear-gradient(to right,var(--cinzamedio), transparent);
+    text-align: left;
+    font-size: 1.3em;
+    text-indent: 1em;
+
+     }
+
+     main{
+        width: 100%;
+     }
+ main h2 {
+    font-family: var(--fonte-minimalist);
+    background-image: linear-gradient(to right,var(--cinzamedio), transparent);
+    text-align: left;
+    font-size: 1.3em;
+    text-indent: 1em;
+
+     }
+     main p{
+        text-align: justify;
+        margin: 15px 0px;
+        text-indent: 30px;
+        line-height: 2em;
+     }
+     main strong{
+        font-weight: bold;
+     }
+
+    main h3 {  
+        background-image: linear-gradient(to right,var(--cinzamedio), transparent);
+        text-align: left;
+        font-size: 1.3em;
+        text-indent: 1em;
+     }
+     main a{
+        text-decoration: none;
+        font-weight: bold;
+        color: var(--preto );
+    
+     }
+     main a:hover{
+        text-decoration: underline;
+    
+     }
+     footer{
+        background-color: var(--preto);
+        color: var(--branco);
+        font-family: var(--fonte-minimalist);
+        text-align: center;
+     }
+    ____________________
+_______________________parte 4 rodapes links css__________
+@charset "utf-8";
+/*
+branco #F0F0F2
+preto #0D0B0C
+cinza escuro #404040
+cinza médio #A6A6A4
+cinza claro #D9D9D9
+*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@500&family=Great+Vibes&display=swap');
+@font-face{
+    font-family: 'Minimalist';
+    src: url('../fontes/Anthem\ Minimalism\ script.otf');format ('opentype');src: url('/fontes/Anthem\ Minimalism\ script.ttf'); formt ('truetype');
+}
+:root{
+    --branco:#F0F0F2;
+    --preto:#0D0B0C;
+    --cinzaescuro:#404040;
+    --cinzamedio:#A6A6A4;
+    --cinzaclaro:#D9D9D9;
+    
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', 'cursive';
+    --fonte-minimalist: 'minimalist', 'cursive';
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+      
+    body {
+        background-color: var(--cinzaescuro);
+        font-family: var(--fonte-padrao);
+        text-align: center;
+        }
+}
+
+a.externo::after{
+    content: '\1f517';
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cinzaclaro), var(--cinzaescuro));
+    min-height: 170px;
+    background-color: var(--cinzaclaro);
+    text-align: center;
+    padding-top: 30px;
+
+}
+header h1 {
+    color: var(--branco);
+    font-family: var(--fonte-padrao);
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgb(20, 10, 10);
+
+    
+}
+header > p {
+    font-family: var(--fonte-padrao);
+    font-size: 1.0em;
+    color:  var(--branco);  
+    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    text-shadow: 3px 2px 3px rgb(12, 3, 3);
+    
+
+}
+nav{
+    background-color: var(--cinzaescuro);
+    padding: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.308)
+    
+}
+nav >a{
+    color: var(--branco);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0,7ms;
+    
+    
+}
+nav > a:hover{
+    background-color: var(--branco);
+    color: var(--cinzaescuro);
+}
+main{
+    min-width: 390px;
+    max-width: 800px;
+    margin: auto;
+    background-color: var(--branco);
+    padding: 20px;
+    box-shadow: 0px 3px 4px  rgba(0, 0, 0, 0.61);
+    border-radius: 0px 0px 20px 20px;
+
+
+}
+main  h1 {
+    color: var(--preto);
+    font-family: var(--fonte-minimalist);
+    background-image: linear-gradient(to right,var(--cinzamedio), transparent);
+    text-align: left;
+    font-size: 1.3em;
+    text-indent: 1em;
+
+     }
+
+     main{
+        width: 100%;
+     }
+ main h2 {
+    font-family: var(--fonte-minimalist);
+    background-image: linear-gradient(to right,var(--cinzamedio), transparent);
+    text-align: left;
+    font-size: 1.3em;
+    text-indent: 1em;
+
+     }
+     main p{
+        text-align: justify;
+        margin: 15px 0px;
+        text-indent: 30px;
+        line-height: 2em;
+     }
+     main strong{
+        font-weight: bold;
+     }
+
+    main h3 {  
+        background-image: linear-gradient(to right,var(--cinzamedio), transparent);
+        text-align: left;
+        font-size: 1.1em;
+        text-indent: 1em;
+        border-radius: 10px;
+     }
+     aside{
+        background-color:var(--cinzaclaro);
+        padding: 10px;
+        border-radius: 30px;
+        box-shadow: 3px 3px 3px rgba(11, 14, 13, 0.596)
+
+     }
+     aside > h3{
+        background-color: var(--cinzamedio) ; 
+        color:#0D0B0C;
+        padding: 5px ;
+        text-align:left;
+      
+     }
+     aside > ul{
+        list-style-type: '\2714\00a0\00a0\00a0';
+        list-style-position: inside;
+        text-align: left;
+        columns: 2;
+     }
+     main a{
+        text-decoration: none;
+        font-weight: bold;
+        color: var(--preto );
+        background-color: var(--cinzaclaro);
+        padding: 5px 5px;
+        border-radius: 20px 20px;
+        
+    
+     }
+     main a:hover{
+        text-decoration: underline;
+        background-color: var(--cor0);
+        color:var(--cor4);
+       
+       
+     }
+     footer{
+        background-color: var(--preto);
+        color: var(--branco);
+        font-family: var(--fonte-minimalist);
+        text-align: center;
+     }
+    footer a{
+        color: white;
+        text-decoration: none;
+    }
+    footer a:hover{
+        text-decoration: underline;
+    color:var(--cor1);  
+    }
+___________________
+__________________ 5video responsivel css _______________
+@charset "utf-8";
+/*
+branco #F0F0F2
+preto #0D0B0C
+cinza escuro #404040
+cinza médio #A6A6A4
+cinza claro #D9D9D9
+*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@500&family=Great+Vibes&display=swap');
+@font-face{
+    font-family: 'Minimalist';
+    src: url('../fontes/Anthem\ Minimalism\ script.otf');format ('opentype');src: url('/fontes/Anthem\ Minimalism\ script.ttf'); formt ('truetype');
+}
+:root{
+    --branco:#F0F0F2;
+    --preto:#0D0B0C;
+    --cinzaescuro:#404040;
+    --cinzamedio:#A6A6A4;
+    --cinzaclaro:#D9D9D9;
+    
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', 'cursive';
+    --fonte-minimalist: 'minimalist', 'cursive';
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+      
+    body {
+        background-color: var(--cinzaescuro);
+        font-family: var(--fonte-padrao);
+        text-align: center;
+        }
+}
+
+a.externo::after{
+    content: '\1f517';
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cinzaclaro), var(--cinzaescuro));
+    min-height: 170px;
+    background-color: var(--cinzaclaro);
+    text-align: center;
+    padding-top: 30px;
+
+}
+header h1 {
+    color: var(--branco);
+    font-family: var(--fonte-padrao);
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgb(20, 10, 10);
+
+    
+}
+header > p {
+    font-family: var(--fonte-padrao);
+    font-size: 1.0em;
+    color:  var(--branco);  
+    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    text-shadow: 3px 2px 3px rgb(12, 3, 3);
+    
+
+}
+nav{
+    background-color: var(--cinzaescuro);
+    padding: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.308)
+    
+    
+}
+nav >a{
+    color: var(--branco);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0,7ms;
+    
+    
+}
+nav > a:hover{
+    background-color: var(--branco);
+    color: var(--cinzaescuro);
+}
+main{
+    min-width: 390px;
+    max-width: 800px;
+    margin: auto;
+    background-color: var(--branco);
+    padding: 20px;
+    box-shadow: 0px 3px 4px  rgba(0, 0, 0, 0.61);
+    border-radius: 0px 0px 20px 20px;
+
+
+}
+main  h1 {
+    color: var(--preto);
+    font-family: var(--fonte-minimalist);
+    background-image: linear-gradient(to right,var(--cinzamedio), transparent);
+    text-align: left;
+    font-size: 1.3em;
+    text-indent: 1em;
+
+     }
+
+     main{
+        width: 100%;
+     }
+ main h2 {
+    font-family: var(--fonte-minimalist);
+    background-image: linear-gradient(to right,var(--cinzamedio), transparent);
+    text-align: left;
+    font-size: 1.3em;
+    text-indent: 1em;
+     }
+     div.video{
+        background-color: var(--cor5);
+        margin: 0px -20px 30px -20px;
+        padding: 20px;
+        padding-bottom: 57%;
+        position: relative;
+         }
+     div.video> iframe{
+        position:absolute;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 90%
+     }
+     main p{
+        text-align: justify;
+        margin: 15px 0px;
+        text-indent: 30px;
+        line-height: 2em;
+     }
+     main strong{
+        font-weight: bold;
+     }
+
+    main h3 {  
+        background-image: linear-gradient(to right,var(--cinzamedio), transparent);
+        text-align: left;
+        font-size: 1.1em;
+        text-indent: 1em;
+        border-radius: 10px;
+     }
+     aside{
+        background-color:var(--cinzaclaro);
+        padding: 10px;
+        border-radius: 30px;
+        box-shadow: 3px 3px 3px rgba(11, 14, 13, 0.596)
+
+     }
+     aside > h3{
+        background-color: var(--cinzamedio) ; 
+        color:#0D0B0C;
+        padding: 5px ;
+        text-align:left;
+      
+     }
+     aside > ul{
+        list-style-type: '\2714\00a0\00a0\00a0';
+        list-style-position: inside;
+        text-align: left;
+        columns: 2;
+     }
+     main a{
+        text-decoration: none;
+        font-weight: bold;
+        color: var(--preto );
+        background-color: var(--cinzaclaro);
+        padding: 5px 5px;
+        border-radius: 20px 20px;
+        
+    
+     }
+     main a:hover{
+        text-decoration: underline;
+        background-color: var(--cor0);
+        color:var(--cor4);
+       
+       
+     }
+     footer{
+        background-color: var(--preto);
+        color: var(--branco);
+        font-family: var(--fonte-minimalist);
+        text-align: center;
+     }
+    footer a{
+        color: white;
+        text-decoration: none;
+    }
+    footer a:hover{
+        text-decoration: underline;
+    color:var(--cor1);  
+    }
