@@ -43,7 +43,7 @@ header{
     background-color: var(--cinzaclaro);
     text-align: center;
     padding-top: 30px;
-    margin-right: -100px;
+    
 
     
 
@@ -73,7 +73,6 @@ header > p {
 nav{
     background-color: var(--cinzaescuro);
     padding: 10px;
-    margin-right: -100px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.308)
     
 
@@ -198,8 +197,8 @@ main  h1 {
         color: var(--branco);
         font-family: var(--fonte-minimalist);
         text-align: center;
-        margin-right: -100px;
-        padding-right: 50px;
+       
+        
      
      }
     footer a{
