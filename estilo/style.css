@@ -199,6 +199,7 @@ main  h1 {
         font-family: var(--fonte-minimalist);
         text-align: center;
         margin-right: -100px;
+        padding-right: 50px;
      
      }
     footer a{
